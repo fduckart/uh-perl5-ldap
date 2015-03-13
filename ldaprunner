@@ -1,0 +1,15 @@
+#!/bin/bash
+if [[ "$#" -gt "0" ]]
+then
+    echo 'vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv'
+    while (( "$#" ))
+    do
+        perl ./ldaprunner.pl "$1"
+        shift  # Shift all the parameters down by one.        
+        if [[ "$#" -gt "0" ]]
+        then
+            echo '    ................................'
+        fi 
+    done
+    echo '^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+fi
