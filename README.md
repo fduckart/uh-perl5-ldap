@@ -6,12 +6,12 @@ LDAP Perl 5 Demonstration Program
 **Overview**
 
 This program demonstrates how to do a simple LDAP search
-of the University of Hawaii LDAP service. 
+of the University of Hawaii LDAP service.
 
 Note: You must specify your special DN and its password.<br/>
 The example run of the program uses the 'filedrop' special DN,
-but the value of the password has been removed from the 
-checked-in code. The use of the special DN will also require 
+but the value of the password has been removed from the
+checked-in code. The use of the special DN will also require
 the ability to pass through the UH firewall.
 
 **Technology**
@@ -29,8 +29,8 @@ using Perl 5 version 18.
 
 **Running the Program**
 
-Run the program from the command line: 
-    
+Run the program from the command line:
+
     $ ./ldaprunner duckart
     vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
     ------------------------------------------------------------------------
@@ -43,17 +43,17 @@ Run the program from the command line:
                                 top
                                 uhEduPerson
                         uhUuid: 17958670
-                            cn: Frank R Duckart
+                            cn: Francis R Duckart
           eduPersonAffiliation: staff
                 eduPersonOrgDN: uhsystem
-                     givenName: Frank
+                     givenName: Francis
                           mail: duckart@hawaii.edu
-                                frank.duckart@hawaii.edu
+                                francis.duckart@hawaii.edu
                             sn: Duckart
              uhAcknowledgement: generalConfidentialityNotice=20060101T000000
               uhOrgAffiliation: eduPersonOrgDN=uhsystem,eduPersonAffiliation=staff
                            uid: duckart
-                   displayName: Frank Duckart
+                   displayName: Francis Duckart
       facsimileTelephoneNumber: (808) 956-2412
                             ou: University of Hawaii System
                                 Information Technology Services, Management Information Systems
@@ -61,7 +61,7 @@ Run the program from the command line:
                telephoneNumber: (808) 956-8904
                          title: Info Tech Spec
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    
+
 
 **For More Information**
 
